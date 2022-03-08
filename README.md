@@ -2,7 +2,7 @@
 Суть библиотеки вытащить табличную чась из файла.
 Бибилиотека использует \Smalot\PdfParser\Parser
 https://github.com/smalot/pdfparser/
-#Использование
+# Использование
 ```php
 use AccountStatement\Kaspi;
 ...
@@ -13,7 +13,7 @@ $parsing = new Kaspi('путь до файла');
 $tbl=$parsing->getTable();
 ```
 Возвращает массив с объектами ItemTable
-#Пример 
+# Пример 
 Входной файл pdf
 ![screenshot](doc/KaspiPDFScreen.PNG)
 ```php
